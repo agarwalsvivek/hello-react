@@ -1,10 +1,5 @@
-import {
-  getByRole,
-  getByText,
-  render,
-  screen,
-  within,
-} from "@testing-library/react";
+import React from "react";
+import { render, screen, within } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import PizzaShop from "./PizzaShop";

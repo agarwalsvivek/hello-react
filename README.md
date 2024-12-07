@@ -1,5 +1,7 @@
 # hello-react
 
+npx playwright test
+
 From https://www.fullstackfoundations.com/blog/react18-typescript-webpack-vanilla-setup#
 
 # As a brief overview, here's what each dependency is primarily for:
