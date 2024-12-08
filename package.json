@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "jest --testPathPattern=./src/*"
   },
   "keywords": [],
   "author": "",
