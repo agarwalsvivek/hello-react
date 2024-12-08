@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("should load the home page", async ({ page }) => {
-  await page.goto("http://localhost:3000");
+  await page.goto("http://localhost:8080");
 
   await page.screenshot({
     path: "./__tests__/screenshots/PizzaShop.png",

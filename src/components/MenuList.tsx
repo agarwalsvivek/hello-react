@@ -16,22 +16,18 @@ type MenuListType = {
 
 const MenuList = ({ onAddMenuItem }: MenuListType) => {
   return (
-    <div>
-      <ol>
-        {pizzas.map((pizza, index) => (
-          <li key={index}>
-            {pizza}{" "}
-            <button
-              onClick={() => {
-                onAddMenuItem(pizza);
-              }}
-            >
-              Add
-            </button>
-          </li>
-        ))}
-      </ol>
-    </div>
+    <ol>
+      {pizzas.map((pizza, index) => (
+        <li
+          key={index}
+          onClick={() => {
+            onAddMenuItem(pizza);
+          }}
+        >
+          {pizza}{" "}
+        </li>
+      ))}
+    </ol>
   );
 };
 
