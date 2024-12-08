@@ -3,7 +3,7 @@ import React from "react";
 const ShoppingCart = ({ cartItems }: { cartItems: string[] }) => {
   return (
     <div data-testid="shopping-cart" className="bordered-div">
-      <span className="bordered-div-label">Cart Items</span>
+      <span className="bordered-div-label">Cart Item(s)</span>
       <ol>
         {cartItems.map((cartItem) => (
           <li key={cartItem}>{cartItem}</li>
